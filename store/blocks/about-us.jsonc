@@ -38,7 +38,7 @@
           "maxHeight": "600px"
         }
       },
-    "tab-layout#home": {
+      "tab-layout#home": {
         "children": [
           "tab-list#home",
           "tab-content#home"
@@ -65,8 +65,8 @@
       },
       "tab-list.item#home2": {
         "props": {
-          "tabId": "INSTAGRAM",
-          "label": "INSTAGRAM"
+          "tabId": "Instagram",
+          "title": "Instagram"
         }
       },
       "tab-content.item#home1": {
@@ -82,7 +82,7 @@
           "iframe"
         ],
         "props": {
-          "tabId": "INSTAGRAM"
+          "tabId": "Instagram"
         }
       },
       "rich-text#home1": {
