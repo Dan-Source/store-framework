@@ -23,6 +23,11 @@
             "accepted-payment-methods"
           ]
       },
+      "accepted-payment-methods": {
+        "props": {
+          "paymentMethods": ["mastercard", "visa", "diners club"]
+        }
+      },
       "flex-layout.col#footer-right-desktop":{
           "children":[
             "social-networks"
@@ -33,13 +38,9 @@
           "socialNetworks": [
             { "url": "https://facebook.com/foo", "name": "Facebook" },
             { "url": "https://twitter.com/foo", "name": "Twitter" },
-            { "url": "https://twitter.com/foo", "name": "Instagram" }
+            { "url": "https://instagram.com/foo", "name": "Instagram" }
           ]
         }
-      },
-      "accepted-payment-methods": {
-        "props": {
-          "paymentMethods": ["mastercard", "visa", "diners club"]
-        }
       }
+      
   }
