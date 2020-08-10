@@ -25,8 +25,8 @@
       },
       "accepted-payment-methods": {
         "props": {
-            "showInColor": true,
-          "paymentMethods": ["mastercard", "visa", "diners club"]
+            "showInColor":true,
+          "paymentMethods": ["Mastercard", "Visa", "Diners Club"]
           
         }
       },
@@ -37,10 +37,10 @@
       },
       "social-networks": {
         "props": {
-            "showInColor": true,
+            "showInColor":true,
           "socialNetworks": [
-            { "url": "https://facebook.com/foo", "name": "Facebook" },
-            { "url": "https://twitter.com/foo", "name": "Twitter" },
+            { "url": "https://facebook.com/foo", "name": "facebook" },
+            { "url": "https://twitter.com/foo", "name": "twitter" },
             { "url": "https://instagram.com/foo", "name": "Instagram" }
           ]
         }
